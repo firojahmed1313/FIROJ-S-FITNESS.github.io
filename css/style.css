@@ -2,11 +2,12 @@ body{
     margin: 0px;
     padding: 0px;
     color: white;
+    top: 0%;
 
     
-    background-repeat: no-repeat;
+   /* background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: center/cover;
    /* background-size: 100% 100%;
     background-position: center;*/
     
@@ -132,18 +133,18 @@ body{
 
 }
 .data{
-    border: 2px solid rgb(13, 13, 241);
+    /*border: 2px solid rgb(13, 13, 241);*/
     background-color: aqua;
-    padding: 25px;
+    padding: 26px;
     margin: 3px;
     display: inline-block;
-    width: 25%;
-    height: 330px;
+    width: 28%;
+    height: fit-content;
 }
 .c3{
-   border: 2px solid red;
+   /*border: 2px solid red;*/
     width: auto;
-    height: 400px;
+    height: fit-content;
     background-color:#656060;
 }
 .image img{
@@ -153,9 +154,11 @@ body{
     margin:auto 38px;
    
 }
+/*
 .social{
     border: 2px solid red;
 }
+*/
 .social h2{
     text-align: center;
 
@@ -181,7 +184,7 @@ body{
 }
 .footer-credits {
     background: #d47878;
-    border: 5px solid chocolate;
+    /*border: 5px solid chocolate;*/
     border-radius: 7px;
 
     color: rgb(2, 39, 15);
